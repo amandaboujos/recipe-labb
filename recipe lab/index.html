@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Yummy Recipes</Title>
+    <meta name="description" content="recipes">
+    <meta name="author" content="Amanda Boujos">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+  </head>
+  <body>
+    
+    <div class="header">    
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="logo.png" width="100px">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            
+            <li><a href="">Recipes</a></li>
+            <li><a href="">Dinner</a></li>
+            <li><a href="">Baking</a></li>
+            <li><a href="">Our Chefs</a></li>
+            
+          </ul>
+          
+        </nav>
+        <img src="facebook-4-xxl.png" class="social" width="30px" height="30px">
+        <img src="instagram-xxl.png" class="social" width="30px" height="30px">
+        <img src="twitter-3-xxl.png" class="social" width="30px" height="30px">
+         <img src="pinkkmenu.png"  class="menu-icon" onclick="menutoggle()">
+        
+        </div>  
+
+      <div class="row">
+           
+        <div class="col-2">
+          <h1>Find A Recipe!</h1>
+          <p>A Recipe is a story that ends with a good meal</p>
+          <a href="" class="btn">Check out what we got &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="food1.jpg"> 
+        
+      </div>
+      </div> 
+    </div>
+    
+     
+   <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+           <img src="pastaa.jpg" width="600" height="300">
+        </div>
+        <div class="col-3">
+           <img src="best-crispy-chicken-thighs-garlic-rosemary-1567793052.png" height="310">
+        </div>
+        <div class="col-3">
+           <img src="Whole30-Breakfast-Recipes.webp" width="200" height="310">
+        </div>
+        
+      </div>
+    </div>
+     
+   </div>
+   
+   <div class="small-container">
+     <h2 class="title">Grilled Ratatouille Pasta Salad</h2>
+     
+     
+     <div class="row">
+       <div class="col-5">
+         <img src="Grilled-Ratatouille-Pasta-12072018.webp" height="300">
+         <H4>Yield: 4 servings<br>Active Time: 25 minutes<br>Total Time: 40 minutes</H4>
+         
+    <div class="row">  
+       <div class="col-4">
+        <img src="ingred.webp" height="300">
+        <H4 class="title">Ingredients</H4>
+        <p>2 medium zucchini (about 1 1/2 lb.), halved lengthwise<br>1 medium or 2 small eggplants (about 1 lb.), cut into 1" wedges<br>3/4 cup extra-virgin olive oil, divided<br>2 1/2 tsp. kosher salt, divided<br>1 tsp. freshly ground black pepper, divided<br>10 oz. penne or casarecce pasta<br>1 large or 2 medium heirloom or beefsteak tomato (about 1 lb.), cut into 1" pieces<br>8 oz. Ciliegini (mini fresh mozzarella balls), drained, halved<br>2 Tbsp. white balsamic or white wine vinegar<br>1 Tbsp. thyme leaves<br>1 cup basil leaves</p>
+        
+
+
+      <div class="col-4">
+        <img src="pastasalad.jpg" height="400">
+        <H4 class="title">Preperation</H4>
+        <p>1. Bring a medium pot of salted water to a boil, cook pasta according to package instructions. Drain the pasta and rinse with cold water. Set aside.<br>2. Heat a grill to medium-high heat. Lightly brush vegetables with olive oil and season with salt and pepper. Place the vegetables and garlic cloves on a grill pan or in a grill basket. Grill until vegetables are browned and tender. Remove from heat and let cool to room temperature. Finely chop the garlic cloves.<br>3. Add grilled vegetables and garlic to the cooked pasta. Drizzle with olive oil and balsamic vinegar. Stir and season with salt and pepper, to taste. Sprinkle with basil. Serve at room temperature or chilled.</p>  
+    </section>
+
+    <script>
+     var MenuItems = document.getElementById("MenuItems");
+
+     MenuItems.style.maxHeight = "0px";
+
+     function menutoggle(){
+       if(MenuItems.style.maxHeight == "0px")
+       {
+        MenuItems.style.maxHeight = "200px";
+       }
+       else
+       {
+        MenuItems.style.maxHeight = "0px";
+       }
+       }
+
+   </script>
+    
+
+  </body>
+</html>
